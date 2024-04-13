@@ -14,6 +14,7 @@
 		BB99C3112BCA59230076EBE8 /* SwiftDataExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99C3102BCA59230076EBE8 /* SwiftDataExampleTests.swift */; };
 		BB99C31B2BCA59230076EBE8 /* SwiftDataExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99C31A2BCA59230076EBE8 /* SwiftDataExampleUITests.swift */; };
 		BB99C31D2BCA59230076EBE8 /* SwiftDataExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99C31C2BCA59230076EBE8 /* SwiftDataExampleUITestsLaunchTests.swift */; };
+		BB99C32C2BCA59E70076EBE8 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99C32B2BCA59E70076EBE8 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BB99C3162BCA59230076EBE8 /* SwiftDataExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDataExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB99C31A2BCA59230076EBE8 /* SwiftDataExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataExampleUITests.swift; sourceTree = "<group>"; };
 		BB99C31C2BCA59230076EBE8 /* SwiftDataExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB99C32B2BCA59E70076EBE8 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				BB99C3012BCA59220076EBE8 /* ContentView.swift */,
 				BB99C3032BCA59230076EBE8 /* Assets.xcassets */,
 				BB99C3052BCA59230076EBE8 /* Preview Content */,
+				BB99C32B2BCA59E70076EBE8 /* UserModel.swift */,
 			);
 			path = SwiftDataExample;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB99C3022BCA59220076EBE8 /* ContentView.swift in Sources */,
+				BB99C32C2BCA59E70076EBE8 /* UserModel.swift in Sources */,
 				BB99C3002BCA59220076EBE8 /* SwiftDataExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
